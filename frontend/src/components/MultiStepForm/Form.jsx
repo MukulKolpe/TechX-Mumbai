@@ -207,7 +207,7 @@ const Form2 = () => {
           Location
         </FormLabel>
         <LoadScript
-          googleMapsApiKey="AIzaSyB5mC45USvzTjQQbn4gWdlKOHHpKs6Yvn8"
+          googleMapsApiKey={import.meta.env.VITE_GOOGLE_MAPS_API_KEY}
           libraries={["places"]}
         >
           <StandaloneSearchBox
